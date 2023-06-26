@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.bg-img{
+  background-image: url("../public/img/background.jpg");
+   /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.header{
+  background-color: rgba(0, 0, 0, 0.301);
+  z-index: 0;
+}
+.content{
+  height:fit-content ;
+ overflow: visible ;
+}
+.model_content{
+  display: flex;
+  position: relative;
+}
+.glass_img{
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  left: 320px;
+  top: 60px;
+  opacity: 0.8;
+}
+.model_img{
+  height: 250px;
+  width: 200px;
+  align-self: center;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+ 
+}
